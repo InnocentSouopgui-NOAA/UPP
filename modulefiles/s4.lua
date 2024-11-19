@@ -5,10 +5,10 @@
 -- ---------------------------------------------------------------------------
 
 
-prepend_path("MODULEPATH", "/data/prod/jedi/spack-stack/spack-stack-1.6.0/envs/upp-addon-env/install/modulefiles/Core")
+prepend_path("MODULEPATH", "/data/prod/jedi/spack-stack/spack-stack-1.6.0/envs/upp-addon-ue-intel-2021.10.0/install/modulefiles/Core")
 
-local stack_intel_ver=os.getenv("stack_intel_ver") or "2021.5.0"
-local stack_impi_ver=os.getenv("stack_impi_ver") or "2021.5.0"
+local stack_intel_ver=os.getenv("stack_intel_ver") or "2021.10.0"
+local stack_impi_ver=os.getenv("stack_impi_ver") or "2021.10.0"
 local cmake_ver=os.getenv("cmake_ver") or "3.23.1"
 
 load(pathJoin("stack-intel", stack_intel_ver))
